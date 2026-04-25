@@ -1,0 +1,21 @@
+:root {
+  --color-action: #2563eb;
+  --color-success: #10b981;
+  --color-danger: #ef4444;
+  --color-neutral: #6b7280;
+  --color-bg-page: #f9fafb;
+  --color-bg-card: #ffffff;
+  --color-bg-divider: #f3f4f6;
+
+  --font-ui: Inter, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+  --size-xs: x-small;
+  --size-sm: small;
+  --size-meta: smaller;
+
+  --space-indent: 14px;
+  --space-item: 10px;
+  --space-btn: 5px;
+  --space-section: 20px;
+  --space-title: 3px;
+}

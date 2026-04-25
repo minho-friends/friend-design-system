@@ -1,0 +1,21 @@
+# @minho-friends/friend-design-system
+
+- [ ] P0(manual): move to https://github.com/minho-friends/friend-design-system
+  - [ ] P2: deploy to https://docs.github.com/ko/packages/working-with-a-github-packages-registry/working-with-the-npm-registry
+    - [ ] P3: write manual script for purge all old deployed versions
+- [x] P1: rename all internal packages
+  - `@minho-friends/friend-design-system` (root, with subpath exports `./lit`, `./react`, `./json-render`)
+  - `@minho-friends/friend-design-system--lit`
+  - `@minho-friends/friend-design-system--react`
+  - `@minho-friends/friend-design-system--shadcn-registry`
+  - `@minho-friends/friend-design-system--json-render`
+  - `@minho-friends/friend-design-system--demo`
+  - `@minho-friends/friend-design-system--e2e`
+  - `@minho-friends/friend-design-system--storybook-vite`
+  - `@minho-friends/friend-design-system--storybook-react`
+  - `@minho-friends/friend-design-system--shadcn-registry-test`
+- [x] P1: reorganize directory structure (`components/`, `derives/`, `apps/`, `test/`)
+- [x] P1: single-package subpath exports on root (`./lit`, `./react`, `./json-render`)
+- [x] P1: Rollup build for `components/lit/` (lit as external peer dep)
+- [x] P1: production/final build for all packages
+- [ ] P3: versioning?

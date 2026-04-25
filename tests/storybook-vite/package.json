@@ -1,0 +1,19 @@
+{
+  "name": "@minho-friends/friend-design-system--storybook-vite",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "storybook": "PORTLESS_HTTPS=0 portless storybook storybook dev",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@minho-friends/friend-design-system--lit": "*"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.1.0",
+    "@storybook/web-components-vite": "^8.1.0",
+    "lit": "^3.1.0",
+    "storybook": "^8.1.0",
+    "vite": "^5.2.0"
+  }
+}

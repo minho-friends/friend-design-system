@@ -1,0 +1,5 @@
+# Storybook static build
+storybook-static/
+
+# Vite cache
+.vite/

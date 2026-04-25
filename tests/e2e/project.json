@@ -1,0 +1,32 @@
+{
+  "name": "@minho-friends/friend-design-system--e2e",
+  "projectType": "application",
+  "root": "tests/e2e",
+  "implicitDependencies": [
+    "@minho-friends/friend-design-system--lit"
+  ],
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "inputs": [
+        "default",
+        "^default",
+        "requirementsSpec"
+      ],
+      "outputs": [
+        "{projectRoot}/dist"
+      ],
+      "options": {
+        "command": "node scripts/build.js",
+        "cwd": "tests/e2e"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node --test __tests__/*.test.js",
+        "cwd": "tests/e2e"
+      }
+    }
+  }
+}

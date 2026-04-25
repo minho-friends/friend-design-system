@@ -1,0 +1,20 @@
+{
+  "name": "@minho-friends/friend-design-system--storybook-vite",
+  "projectType": "application",
+  "root": "tests/storybook-vite",
+  "implicitDependencies": [
+    "@minho-friends/friend-design-system--lit"
+  ],
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "outputs": [
+        "{projectRoot}/storybook-static"
+      ],
+      "options": {
+        "command": "npm run build-storybook",
+        "cwd": "tests/storybook-vite"
+      }
+    }
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "friend-tools",
+  "homepage": "",
+  "items": [
+    {
+      "name": "stack",
+      "type": "registry:ui",
+      "title": "Stack",
+      "description": "Flex container (vertical or horizontal)",
+      "files": [
+        {
+          "path": "../../components/react/src/StackReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "grid",
+      "type": "registry:ui",
+      "title": "Grid",
+      "description": "CSS grid with equal-width columns",
+      "files": [
+        {
+          "path": "../../components/react/src/GridReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "Bordered card container with optional title/subtitle",
+      "files": [
+        {
+          "path": "../../components/react/src/CardReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "title": "Separator",
+      "description": "Horizontal divider line",
+      "files": [
+        {
+          "path": "../../components/react/src/SeparatorReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "ft-text",
+      "type": "registry:ui",
+      "title": "Text",
+      "description": "Paragraph text with size and muted variants",
+      "files": [
+        {
+          "path": "../../components/react/src/TextReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "heading",
+      "type": "registry:ui",
+      "title": "Heading",
+      "description": "Section heading h1-h6",
+      "files": [
+        {
+          "path": "../../components/react/src/HeadingReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "ft-badge",
+      "type": "registry:ui",
+      "title": "Badge",
+      "description": "Small inline label badge with color variants",
+      "files": [
+        {
+          "path": "../../components/react/src/BadgeReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "metric",
+      "type": "registry:ui",
+      "title": "Metric",
+      "description": "Key metric display with label and optional trend",
+      "files": [
+        {
+          "path": "../../components/react/src/MetricReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "callout",
+      "type": "registry:ui",
+      "title": "Callout",
+      "description": "Callout box for info, success, warning, or error messages",
+      "files": [
+        {
+          "path": "../../components/react/src/CalloutReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "status-badge",
+      "type": "registry:ui",
+      "title": "StatusBadge",
+      "description": "Inline status badge: running, stopped, completed, disabled, unknown",
+      "files": [
+        {
+          "path": "../../components/react/src/StatusBadgeReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "metrics-row",
+      "type": "registry:ui",
+      "title": "MetricsRow",
+      "description": "Monospace metrics line: status, age, cpu, mem",
+      "files": [
+        {
+          "path": "../../components/react/src/MetricsRowReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "info-text",
+      "type": "registry:ui",
+      "title": "InfoText",
+      "description": "Transient feedback line, turns red on error",
+      "files": [
+        {
+          "path": "../../components/react/src/InfoTextReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "key-value-list",
+      "type": "registry:ui",
+      "title": "KeyValueList",
+      "description": "dl/dt/dd key-value display with optional inline action button",
+      "files": [
+        {
+          "path": "../../components/react/src/KeyValueListReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "search-filter-bar",
+      "type": "registry:ui",
+      "title": "SearchFilterBar",
+      "description": "Real-time filter input, fires filter event",
+      "files": [
+        {
+          "path": "../../components/react/src/SearchFilterBarReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tree-node",
+      "type": "registry:ui",
+      "title": "TreeNode",
+      "description": "Collapsible tree node with optional status badge",
+      "files": [
+        {
+          "path": "../../components/react/src/TreeNodeReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "action-group",
+      "type": "registry:ui",
+      "title": "ActionGroup",
+      "description": "Horizontal row of start/stop/add/remove control buttons",
+      "files": [
+        {
+          "path": "../../components/react/src/ActionGroupReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "process-card",
+      "type": "registry:block",
+      "title": "ProcessCard",
+      "description": "Composite process card: name, status badge, metrics, info, actions",
+      "files": [
+        {
+          "path": "../../components/react/src/ProcessCardReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tunnel-entry",
+      "type": "registry:block",
+      "title": "TunnelEntry",
+      "description": "Collapsible tunnel proxy config entry with hostname/service pairs",
+      "files": [
+        {
+          "path": "../../components/react/src/TunnelEntryReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "admin-page-header",
+      "type": "registry:component",
+      "title": "AdminPageHeader",
+      "description": "Page header with title, action buttons, stats, and hr divider",
+      "files": [
+        {
+          "path": "../../components/react/src/AdminPageHeaderReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "collapsible-footer",
+      "type": "registry:component",
+      "title": "CollapsibleFooter",
+      "description": "Collapsed details footer with key-value sections, sticky support",
+      "files": [
+        {
+          "path": "../../components/react/src/CollapsibleFooterReact.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}

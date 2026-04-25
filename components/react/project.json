@@ -1,0 +1,27 @@
+{
+  "name": "@minho-friends/friend-design-system--react",
+  "projectType": "library",
+  "root": "components/react",
+  "implicitDependencies": [
+    "@minho-friends/friend-design-system--lit"
+  ],
+  "targets": {
+    "build": {
+      "executor": "nx:run-commands",
+      "outputs": [
+        "{projectRoot}/dist"
+      ],
+      "options": {
+        "command": "npm run build",
+        "cwd": "components/react"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "node --test __tests__/*.test.js",
+        "cwd": "components/react"
+      }
+    }
+  }
+}

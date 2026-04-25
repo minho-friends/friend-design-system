@@ -1,0 +1,35 @@
+{
+  "name": "@minho-friends/friend-design-system",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "./lit": "./components/lit/dist/index.js",
+    "./react": "./components/react/dist/index.js",
+    "./json-render": "./derives/json-render/dist/index.js"
+  },
+  "peerDependencies": {
+    "lit": "^3.1.0",
+    "react": "^19.0.0"
+  },
+  "workspaces": [
+    "apps/demo",
+    "components/lit",
+    "components/react",
+    "derives/json-render",
+    "derives/shadcn-registry",
+    "tests/e2e",
+    "tests/shadcn-registry-test",
+    "tests/storybook-react",
+    "tests/storybook-vite"
+  ],
+  "scripts": {
+    "build": "nx affected --target=build",
+    "test": "nx affected --target=test",
+    "dev:proxy": "portless proxy start --no-tls"
+  },
+  "devDependencies": {
+    "nx": "^19.3.2",
+    "portless": "^0.10.3",
+    "typescript": "^5.4.0"
+  }
+}

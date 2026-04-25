@@ -1,0 +1,14 @@
+{
+  "name": "@minho-friends/friend-design-system--shadcn-registry",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "shadcn build"
+  },
+  "dependencies": {
+    "@minho-friends/friend-design-system--react": "*"
+  },
+  "devDependencies": {
+    "shadcn": "^4.3.0"
+  }
+}
