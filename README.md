@@ -17,7 +17,7 @@ The hypothesis was that an LLM could:
 
 **Step 2 partially succeeded.** The LLM generated components, but they diverged in subtle ways. The problem: `DESIGN.md` prose alone is not a precise enough contract for component generation. "Status badge with 3px border radius" is fine prose but doesn't specify props, variants, composability, or how it relates to the component hierarchy. The format wasn't the right container.
 
-**Fix**: teach the LLM proper component design by grounding it in shadcn's architecture — registry types, variant systems, primitive vs. block vs. component distinctions. That study became `SPEC_primitives.md`. With that layer added, component generation became consistent and the original HTML could be replaced.
+**Fix**: teach the LLM proper component design by grounding it in shadcn's architecture — registry types, variant systems, primitive vs. block vs. component distinctions. That study became `SPEC_primitives.md`. ~~With that layer added, component generation became consistent and the original HTML could be replaced.~~
 
 ## The Spec Pipeline
 
