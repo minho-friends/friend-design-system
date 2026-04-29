@@ -17,7 +17,7 @@
 
 **2단계 부분 성공.** 컴포넌트는 생성됐지만 미묘하게 달랐습니다. 문제는 `DESIGN.md` 산문만으로는 컴포넌트 생성의 정확한 계약서가 되기 어렵다는 것. "3px border-radius 상태 뱃지"는 괜찮은 산문이지만 props, variants, 컴포저빌리티, 컴포넌트 계층 내 관계를 명시하지 않습니다. 그릇이 맞지 않았습니다.
 
-**해결책**: shadcn 아키텍처를 기반으로 LLM에게 제대로 된 컴포넌트 설계를 가르쳤습니다 — registry 타입, variant 시스템, primitive vs. block vs. component 구분. 그 결과물이 `SPEC_primitives.md`. 이 레이어가 추가되자 컴포넌트 생성이 일관되어지고 기존 HTML을 대체할 수 있었습니다.
+**해결책**: shadcn 아키텍처를 기반으로 LLM에게 제대로 된 컴포넌트 설계를 가르쳤습니다 — registry 타입, variant 시스템, primitive vs. block vs. component 구분. 그 결과물이 `SPEC_primitives.md`. ~~이 레이어가 추가되자 컴포넌트 생성이 일관되어지고 기존 HTML을 대체할 수 있었습니다.~~
 
 ## 스펙 파이프라인
 
